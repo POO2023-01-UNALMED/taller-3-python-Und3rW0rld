@@ -72,5 +72,5 @@ class TV:
     @classmethod
     def setNumTV(cls, numTV):
         cls._numTV = numTV
-    def getNumTV(cls):
-        return cls._numTV
+    def getNumTV(self):
+        return self._numTV
